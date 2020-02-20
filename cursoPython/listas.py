@@ -88,7 +88,7 @@ for elemento in lista1:
     print(elemento)
     cont = cont + elemento
     print(cont)
-'''
+
 # iterando sobre listas
 
 # exemplo 2 - utilizando while
@@ -102,4 +102,9 @@ while(produto != 'sair'):
         carrinho.append(produto)
 for produto in carrinho:
     print(produto)
+'''
+cores = ['verde', 'amarelo', 'azul', 'branco']
 
+# gerar indice em for
+for indice, cor in enumerate(cores): # enumarate gera pares
+    print(indice, cor)
